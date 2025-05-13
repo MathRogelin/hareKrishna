@@ -1,0 +1,224 @@
+@import url('https://fonts.cdnfonts.com/css/satya-sanskrit');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(153, 50, 50);
+    font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+    height: 12px; /* Altura no caso de rolagem horizontal */
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(228, 188, 13); /* Cor da barra */
+}
+.horarios{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: rgb(228, 188, 13);
+}
+.horarios span{
+    margin-right: 30%;
+}
+.horarios ul{
+    display: flex;
+    list-style: none;
+}
+.horarios ul li{
+    margin-right: 20px;
+}
+.horarios ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.horarios ul li a:hover{
+    color: #ff0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    position: sticky;
+    background-color: rgb(153, 50, 50);
+}
+header a{
+    margin-right: 15px;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000;
+}
+header a:hover{
+    color: #ff0;
+}
+header #iscon{
+    margin-right: 20%;
+}
+nav{
+    top:9%;
+    position: sticky;
+    text-align: center;
+    background-color: rgb(153, 50, 50);
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+}
+nav ul li{
+    padding-bottom: 30px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #ff0;
+}
+nav, input[type = checkbox]{
+    display: none;
+}
+label{
+    color: #fff;
+    font-size: 20px;
+}
+#casa{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 100vh;
+    color: #ff0;
+    font-size: 20px;
+    font-family: 'Satya Sanskrit', sans-serif;
+    text-shadow: 2px 2px  1px  rgb(153, 50, 50);
+    background-image: url(krishna.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#casa div{
+    width: 60%;
+    height: 30%;
+}
+#casa div h1{
+    border-bottom: 1px solid #ff0;
+    margin-bottom: 0px;
+}
+#casa div p{
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#container_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(228, 188, 13);
+}
+#title_about{
+    font-family: 'Satya Sanskrit', sans-serif;
+    background-color: rgb(153, 50, 50);
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    color: #ff0;
+    border-top: 1px solid rgb(228, 188, 13);
+    border-bottom: 1px solid rgb(228, 188, 13);
+    margin: 10px;
+}
+#container_grid{
+    padding: 20px;
+    width: 90%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+#container_grid h2,p{
+    padding: 10px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+.img img{
+    width: 90%;
+    border-radius: 50px;
+    border: 5px solid rgb(153, 50, 50);
+}
+.text{
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(153, 50, 50);
+    font-size: 16px;
+}
+#container_section_events{
+    background-color: rgb(228, 188, 13);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#event{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    width: 30%;
+    height: 50%;
+    border: 5px solid rgb(218, 144, 25);
+    background-color: rgb(153, 50, 50);
+    border-radius: 20px;
+}
+#event h2{
+    margin: 5px;
+    color: rgb(228, 188, 13);
+}
+#event h3{
+    font-family: 'Satya Sanskrit', sans-serif;
+    color: rgb(218, 144, 25);
+}
+#event img{
+    width: 100%;
+    border-radius: 20px;
+}
+#event a{
+    font-size: 20px;
+    color: rgb(228, 188, 13);
+    border: 1px solid rgb(228, 188, 13);
+    background-color: rgb(153, 50, 50);
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+#programacao{
+    background-color: rgb(228, 188, 13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#programacao li{
+    font-family: 'Satya Sanskrit', sans-serif;
+    font-size: 20px;
+}
+#programacao h2,li{
+    color: rgb(153, 50, 50);
+}
+.grid_container{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    align-items: center;
+    height: 90%;
+    width: 80%;
+}
+.grid_container div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.grid_container img{
+    width: 90%;
+}

@@ -1,0 +1,57 @@
+@media (max-width:786px) {
+    body{
+        background-position: center;
+    }
+    .horarios span{
+        margin-right: 20%;
+    }
+}
+@media (max-width:686px) {
+    .horarios span{
+        margin-right: 10%;
+    }
+    #casa{
+        font-size: 15px;
+    }
+    #casa div{
+        width: 80%;
+        background-position: center;
+    }
+    #container_grid{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img img{
+        width: 100%;
+        margin: 5px;
+    }
+    #event{
+        width: 100%;
+    }
+    .grid_container{
+        display: grid;
+        grid-template-columns:  1fr;
+    }
+}
+.horariosResponsivo{
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: #000000;
+    background-color: rgb(228, 188, 13);
+}
+.horariosResponsivo summary{
+    font-size: 14px;
+    color: #000000;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+.horariosResponsivo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+}
+.horariosResponsivo a:hover{
+    color: #ff0;
+}
